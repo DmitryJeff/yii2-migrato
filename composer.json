@@ -1,0 +1,29 @@
+{
+    "name": "opus-online/yii2-migrato",
+    "description": "Migration tool for Yii2 projects",
+    "licence": "MIT",
+    "type": "yii2-extension",
+    "homepage": "https://bitbucket.org/opus-online/yii2-migrato",
+    "support": {
+        "source": "https://bitbucket.org/opus-online/yii2-migrato"
+    },
+    "authors": [
+        {
+            "name": "Ivo Kund",
+            "email": "ivo@opus.ee"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "symfony/yaml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "opus\\migrato\\": "src"
+        }
+    }
+}

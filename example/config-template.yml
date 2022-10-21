@@ -1,0 +1,11 @@
+actions:
+  init: &init
+    description: Re-build database
+  update: &update
+    description: Apply all migrations and updates
+
+commands:
+  'Dropping all tables':
+    - type: yii-exec
+      path: db/drop-all
+      on: [init]
